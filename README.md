@@ -1,4 +1,4 @@
-# Scrip for creating a frontend component's files
+# Script for creating a frontend component's files
 
 This is a script to automatically create TypeScript frontend component, coupled with SCSS module file, Storybook story file and a test file and a type file.
 
