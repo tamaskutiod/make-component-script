@@ -13,8 +13,9 @@ else
         touch ${PWD}/$1/${1}.type.ts
 
         echo "All files for module "$1" have been created under ${PWD}/${1}"
+        exit 0
     else
         echo "The folder for component "$1" already exists in ${PWD}"
-        exit 0
+        exit 1
     fi
 fi
