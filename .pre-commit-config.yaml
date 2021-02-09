@@ -1,0 +1,11 @@
+---
+repos:
+  - repo: git@github.com:OetkerDigital/devops-pre-commit.git
+    rev: master
+    hooks:
+      - id: pre-commit-config
+      - id: gitignore
+      - id: codeowners
+      - id: yamllint
+      - id: kubernetes
+      - id: prettier-yaml
