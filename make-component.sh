@@ -10,7 +10,7 @@ else
         touch ${PWD}/$1/${1}.test.tsx
         touch ${PWD}/$1/${1}.stories.tsx
         touch ${PWD}/$1/${1}.module.scss
-        touch ${PWD}/$1/${1}.type.ts
+        touch ${PWD}/$1/${1}.interface.ts
 
         echo "All files for module "$1" have been created under ${PWD}/${1}"
         exit 0

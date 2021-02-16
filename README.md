@@ -20,7 +20,7 @@ Now under `my-project/components/atoms/` you should have:
 ```
 SomeDummyComponent/
     SomeDummyComponent.tsx
-    SomeDummyComponent.type.ts
+    SomeDummyComponent.interface.ts
     SomeDummyComponent.test.tsx
     SomeDummyComponent.stories.tsx
     SomeDummyComponent.module.scss
@@ -28,7 +28,6 @@ SomeDummyComponent/
 
 ## TODO
 
-- [ ] Test on macOS
 - [ ] Implement flag for automatic git staging of created files
 - [ ] Implement for Windows (`.bat` file or PowerShell script)
 - [ ] Add option for the script to produce files with different extentsions, eg.: `.js`, `.jsx`, `.veu` or `.css` instead of `.scss`
